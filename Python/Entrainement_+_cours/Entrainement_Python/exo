@@ -1,0 +1,4 @@
+age = int(input("quelle age a tu "))
+if(age > 5 and  age < 8): 
+    print("gamin")
+    

@@ -1,0 +1,32 @@
+def getHello():
+    return "Hello tout le monde"
+
+message = getHello()
+print(message)
+
+# Les fonctions sans parametres.
+def afficher_message():
+    print("Bonjour, comment ca va ?")
+    afficher_message()
+
+
+#Les fonctions avec parametres.
+def afficher_nom_prenom(nom, prenom):
+        print("Nom :", nom)
+        print("Prenom :", prenom)
+        afficher_nom_prenom("Dupont", "Jean")
+
+
+
+#Les fonctions avec une valeur de retour.
+def calculer_somme(a, b):
+     resultat = a + b 
+     return resultat
+somme = calculer_somme(2, 3)
+print(somme) #Ce print affichera 5
+
+
+def calculer_pourcentage(a, b):
+     resultat = (a * (b/100))
+     return resultat
+pourcentage = calculer_pourcentage(2, 4)

@@ -1,0 +1,2 @@
+phrase = input("Quelle est ton prenom ")
+print("Hello", phrase )
